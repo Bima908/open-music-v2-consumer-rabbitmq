@@ -1,0 +1,14 @@
+# node-postgres configuration
+PGUSER=developer
+PGHOST=localhost
+PGPASSWORD=supersecretpassword
+PGDATABASE=notesapp
+PGPORT=5432
+
+# nodemailer SMTP authentication
+SMTP_HOST=
+SMTP_PORT=
+SMTP_USER=
+SMTP_PASSWORD=
+
+RABBITMQ_SERVER=amqp://localhost

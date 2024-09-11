@@ -1,8 +1,9 @@
-const songsOnPlaylistMapperResponse = ({ id, name, username }, songs) => ({
-  id,
-  name,
-  username,
-  songs,
+const songsOnPlaylistMapperResponse = ({ id, name }, songs) => ({
+  playlist: {
+    id,
+    name,
+    songs,
+  }
 });
 
 module.exports = { songsOnPlaylistMapperResponse };
